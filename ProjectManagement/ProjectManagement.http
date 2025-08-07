@@ -1,0 +1,6 @@
+@ProjectManagement_HostAddress = http://localhost:5064
+
+GET {{ProjectManagement_HostAddress}}/
+Accept: application/json
+
+###
