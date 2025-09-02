@@ -1,4 +1,3 @@
-
 # 📁 ProjectManagement
 
 > ⚠️ **This project is currently under active development.**  
@@ -48,16 +47,17 @@ This structure allows for loose coupling and easy testing, maintenance, and futu
 
 ## 📦 Getting Started
 
-
 - Configure your database connection string in `appsettings.json/appsettings.Development.json`.
-- Run the project!
+- Navigate to the server folder: 
+`cd ProjectManagement\App\Server\ProjectManagement`
+- Run the project:
+`dotnet run`
+*Note: The Vue.js client application will start automatically via SPA Proxy.*
 
 ## 📌 Roadmap
 
 - 🔐 Add authentication and authorization  
-- 👥 Employee management  
 - 🗂️ Task and milestone tracking  
-- 🌐 Frontend UI (planned)
 
 ## 👨‍💻 Author
 
